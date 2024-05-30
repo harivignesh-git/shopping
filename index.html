@@ -34,7 +34,7 @@
                 <div>
                     <label for="pass"> Password </label><br>
                     <input type="password" id="pass" placeholder="Enter password" size="25"><br>
-                    <h6 class="incorrect" id=incorrectpass> </h6>
+                    <h6 class="incorrect" id="incorrectpass"> </h6>
                 </div>
                 <div>
                     <button id="btnlogin" onclick="ajaxcall.ajax(checkuser,'http://localhost:3000/json/users.json','username')"> LOGIN </button><br>
@@ -84,10 +84,10 @@
          </div>
 
          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog" role="document">
+                <div class="modaldialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLongTitle"> Billing </h5>
+                      <h5 class="modaltitle" id="examplemodallongtitle"> Billing </h5>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
